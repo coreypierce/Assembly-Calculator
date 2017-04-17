@@ -45,9 +45,11 @@ public class CalculatorController {
 			alertBox.display("Pop Up", "Assembly File Ready");
 			System.out.println("You chose Subtraction");
 		} else if (choice == 3) {
+			ASM_Multiplying.to_prod(get_num1(), get_num2());
 			alertBox.display("Pop Up", "Assembly File Ready");
 			System.out.println("You Chose Multiplication");
 		} else if (choice == 4) {
+			ASM_Divide.to_div(get_num1(), get_num2());
 			alertBox.display("Pop Up", "Assembly File Ready");
 			System.out.println("You chose Division");
 		}
